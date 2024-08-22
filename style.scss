@@ -210,6 +210,26 @@ nav {
   }
 }
 
+.city {
+float: right;
+
+  @include mobile {
+    float: none;
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+.city-name {
+  margin: 0;
+  color: $darkGray;
+  cursor: pointer;
+  font-family: $helveticaNeue;
+  font-weight: 300;
+  font-size: 22px;
+  letter-spacing: 1px;
+}
+
 //
 // .main
 //
